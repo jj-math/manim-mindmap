@@ -416,7 +416,7 @@ self.play(
             node_spacing = 0.5,
             level_spacing = 0.5,
             sides = (UP,DOWN), 
-        )
+        ),
         node_style = node_style
     )
 )
@@ -429,15 +429,15 @@ self.play(
             direction = RIGHT,
             node_spacing = 0.5,
             level_spacing = 0.5, 
-        )
+        ),
         node_style = node_style
     )
 )
 ```
-sides: 指定时序图的二级子树的生长方向只能是UP或DOWN，或(UP,DOWN)和(DOWN,UP)。不指定的话，默认为(UP,DOWN)
-direction:思维导图的布局方向，时序图的布局方向只能是RIGHT,不需指定
-node_spacing:节点之间的间距
-level_spacing:层级之间的间距
++ sides: 指定时序图的二级子树的生长方向只能是UP或DOWN，或(UP,DOWN)和(DOWN,UP)。不指定的话，默认为(UP,DOWN)
++ direction：思维导图的布局方向，时序图的布局方向只能是RIGHT,不需指定
++ node_spacing：节点之间的间距
++ level_spacing：层级之间的间距
 
 ## 开发计划
 
