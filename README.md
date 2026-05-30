@@ -156,7 +156,11 @@ self.play(
 )
 ```
 
-参数说明：待移除的节点可以是一个，也可以是多个。注意，移除一个节点时，意味着移除以该节点为根的子树；所以，如果该节点是根节点，将移除整个思维导图。
+参数说明：待移除的节点可以是一个，也可以是多个。注意，移除一个节点时，意味着移除以该节点为根的子树；所以，如果该节点是根节点，将移除整个思维导图。动画效果如下：
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/978a43fb-af1a-4742-8f64-b835d53fb1b5" width="600" controls></video>
+</div>
 
 ### 动画类：LayoutAnimation
 
@@ -275,7 +279,11 @@ self.play(
 )
 ```
 
-通过各个节点的`add_child`、`remove_child`、`scale`和`alter_content`方法，实现插入、移除、放缩和修改节点。然后，将根节点传入LayoutAnimation，会将所有的动画效果收集返回。
+通过各个节点的`add_child`、`remove_child`、`scale`和`alter_content`方法，实现插入、移除、放缩和修改节点。然后，将根节点传入LayoutAnimation，会将所有的动画效果收集返回。动画效果如下：
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/f28715dc-e1bc-48b2-89c6-b4f21418937c" width="600" controls></video>
+</div>
 
 如果不想通过节点类 Node 组织思维导图，可以考虑 MindMap 类。
 
@@ -387,9 +395,19 @@ self.play(
 + 根节点是：`(0,)`
 + 根节点的第一个、第二个子节点分别是：`(0,0),(0,1)`
 
+动画效果如下：
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/d726f3e8-c9f5-4a65-904b-49f5a7a873b1" width="600" controls></video>
+</div>
+
 ### TimeLine 类
 
-时序图的实现：TimeLine 类与 MindMap 类用法相同。
+时序图的实现：TimeLine 类与 MindMap 类用法相同。动画效果如下：
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/9c208fac-982e-4878-a3ff-595ed3c7a948" width="600" controls></video>
+</div>
 
 在前面的 `LayoutAnimation` 和插入节点 `InsertNode`等动画中，通过 `layout_type` 参数指定为时序图的布局
 
@@ -443,3 +461,8 @@ self.play(
 
 + 添加其他的布局算法
     + 鱼骨图
+
+https://github.com/user-attachments/assets/9c208fac-982e-4878-a3ff-595ed3c7a948
+https://github.com/user-attachments/assets/d726f3e8-c9f5-4a65-904b-49f5a7a873b1
+https://github.com/user-attachments/assets/f28715dc-e1bc-48b2-89c6-b4f21418937c
+https://github.com/user-attachments/assets/978a43fb-af1a-4742-8f64-b835d53fb1b5
