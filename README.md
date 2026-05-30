@@ -158,10 +158,6 @@ self.play(
 
 参数说明：待移除的节点可以是一个，也可以是多个。注意，移除一个节点时，意味着移除以该节点为根的子树；所以，如果该节点是根节点，将移除整个思维导图。动画效果如下：
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/978a43fb-af1a-4742-8f64-b835d53fb1b5" width="600" controls></video>
-</div>
-
 ### 动画类：LayoutAnimation
 
 动画类RemoveNode、InsertNode、ScaleNode和AlterNode，都继承于LayoutAnimation。这四个动画，如果操作的是同一个思维导图，在一个play中，不能同时使用；如下的使用方式是错的：
@@ -461,8 +457,3 @@ self.play(
 
 + 添加其他的布局算法
     + 鱼骨图
-
-https://github.com/user-attachments/assets/9c208fac-982e-4878-a3ff-595ed3c7a948
-https://github.com/user-attachments/assets/d726f3e8-c9f5-4a65-904b-49f5a7a873b1
-https://github.com/user-attachments/assets/f28715dc-e1bc-48b2-89c6-b4f21418937c
-https://github.com/user-attachments/assets/978a43fb-af1a-4742-8f64-b835d53fb1b5
